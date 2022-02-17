@@ -7,4 +7,4 @@ SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
 # Менять под глобальную базу данных
-conn = psycopg2.connect(dbname='d9asfulh7bfmbd', user='rfmtowprcpllax', password='d630aac61a2f1304bc8d54bd3937cd8c6db1771eb5e51213ff59b05afd1277a3', host='ec2-52-204-196-4.compute-1.amazonaws.com')
+conn = psycopg2.connect(dbname='db0el5720jho8u', user='cartyygfeadefo', password='5210cc100165ec7e5ab2108e3f9930eeb1e0c011f0d8283e0f976d1dc640e511', host='ec2-52-45-83-163.compute-1.amazonaws.com')
